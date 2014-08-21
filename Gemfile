@@ -15,7 +15,7 @@ gem 'bootstrap-will_paginate', '0.0.9'
 group :development, :test do
   gem 'rspec-rails', '2.13.1'
   # The following optional lines are part of the advanced setup.
-  # gem 'guard-rspec', '2.5.0'
+  gem 'guard-rspec', '2.5.0'
   # gem 'spork-rails', '4.0.0'
   # gem 'guard-spork', '1.5.0'
   # gem 'childprocess', '0.3.6'
@@ -35,7 +35,7 @@ group :test do
   # gem 'libnotify', '0.8.0'
 
   # Uncomment these lines on Windows.
-  # gem 'rb-notifu', '0.0.4'
+  gem 'rb-notifu', '0.0.4'
   # gem 'wdm', '0.1.0'
 end
 
